@@ -71,7 +71,7 @@ fetch(apiUrl)
     .then(data => {
         console.log(data);
         data.results.map(article => {
-            console.log(article.title);
+            // console.log(article.title);
             let a = document.createElement("a");
             a.setAttribute('href', article.url);
             a.innerHTML = article.title;
