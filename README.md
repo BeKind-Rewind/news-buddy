@@ -43,4 +43,4 @@ https://docs.google.com/presentation/d/1ToN33fX9Wn6oAqhg4hi0vT7Y4AqVQS8f_hqfg8ti
 
 # Perry Portfolio
 
-https://github.com/BeKind-Rewind/ap_portfolio
+https://github.com/BeKind-Rewind/perry_folio
