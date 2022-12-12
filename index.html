@@ -9,8 +9,9 @@
     <script src="https://kit.fontawesome.com/7b99a06c6b.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
-   
+
 </head>
+
 <body class="bg-gray-100">
 
     <!-- News Article container-->
@@ -19,24 +20,29 @@
             <h1 class="text-3xl font-semibold"> News Buddy!</h1>
         </div>
         <div class="para-text">
-            <p class=“text-gray-600”>Click on the button below to stay updated on the latest random news. Find your News Buddy with the blue button!</p>
+            <p class=“text-gray-600”>Click on the button below to stay updated on the latest random news. Find your News
+                Buddy with the blue button!</p>
+            <!-- Get Buddy Modal Button-->
+            <button id="modalBtn" class="button">Click to meet your new best friend <i class='fas fa-paw'></i></button>
         </div>
         <div>
             <button id="get-art" class="rounded-full py-2 px-3 uppercase font-bold cursor-pointer border-black border-2"
-            type="submit">Press to refresh page</button>
+                type="submit">Press to refresh page</button>
         </div>
     </form>
-    
-     <!-- Recent Buddy container -->
-     <div class="buddy-block">
+
+    <!-- Recent Buddy container -->
+    <div class="buddy-block">
         <div class="buddy-content">
             <ul class="buddy-list" id="buddy"></ul>
         </div>
     </div>
-    
-
-    <!-- Get Buddy Modal Button-->
-    <button id="modalBtn" class="button">Click to meet your new best friend  <i class='fas fa-paw'></i></button>
+    <!-- Recent Buddy container -->
+    <div class="buddy-block">
+        <div class="buddy-content">
+            <ul class="buddy-list" id="buddy"></ul>
+        </div>
+    </div>
 
     <!-- Modal container -->
     <div id="simpleModal" class="modal">
@@ -46,15 +52,16 @@
                 <h2>Your News Buddy!</h2>
             </div>
             <div class="modal-body">
-            <p>The news is scary: you don't have to experience it alone! </p>
-            <img id="randomDogPic" alt="random dog pic">
+                <p>The news is scary: you don't have to experience it alone! </p>
+                <img id="randomDogPic" alt="random dog pic">
             </div>
             <div class="modal-footer">
-                <h3><i class='fas fa-paw'></i>"I'm here to give good vibes or take your snacks."<i class='fas fa-paw'></i></h3>
+                <h3><i class='fas fa-paw'></i>"I'm here to give good vibes or take your snacks."<i
+                        class='fas fa-paw'></i></h3>
             </div>
         </div>
     </div>
-    
+
 
     <script src="assets/js/script.js"></script>
 </body>
