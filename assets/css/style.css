@@ -90,6 +90,11 @@ img {
     cursor: pointer;
 }
 
+.buddy {
+    height: auto;
+    width: 25%;
+}
+
 @keyframes modalopen {
     from {
         opacity: 0;

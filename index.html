@@ -13,6 +13,8 @@
 </head>
 
 <body class="bg-gray-100">
+    <!-- Get Buddy Modal Button-->
+    <button id="modalBtn" class="button">Click to meet your new best friend <i class='fas fa-paw'></i></button>
 
     <!-- News Article container-->
     <form class="px-4 my-32 max-w-3xl mx-auto space-y-6" id="headlines">
@@ -25,20 +27,21 @@
         </div>
         <div>
             <button id="get-art" class="rounded-full py-2 px-3 uppercase font-bold cursor-pointer border-black border-2"
-                type="submit">Press to refresh page</button>
+                type="submit">Press to refresh news</button>
         </div>
     </form>
 
     <!-- Recent Buddy container -->
     <div class="buddy-block">
+        <div class="header-1">
+            <h1 class="text-3xl font-semibold">Former News Buddies!</h1>
+        </div>
         <div class="buddy-content">
             <ul class="buddy-list" id="buddy"></ul>
         </div>
     </div>
 
 
-    <!-- Get Buddy Modal Button-->
-    <button id="modalBtn" class="button">Click to meet your new best friend <i class='fas fa-paw'></i></button>
 
     <!-- Modal container -->
     <div id="simpleModal" class="modal">

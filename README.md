@@ -4,7 +4,15 @@ We created an app where users can search current top news articles and stories f
 
 Users can see and *retrieve* their previous article searches for future reference. 
 
+
+
+# Technology 
+The Web APIs used were NewYorkTimes and RandomDogPic. 
+
 We used HTML, Tailwindcss, JavaScript to dynamically add elements and interact with the APIs. 
+
+More on how to utilize TailwindsCSS: https://tailwindcss.com/docs/installation
+
 
 # Future features
 
@@ -29,7 +37,7 @@ Amanda Perry BeKind-Rewind
 
 # Deployed URL
 
-https://bekind-rewind.github.io/animal-app/
+https://bekind-rewind.github.io/news-buddy/
 
 
 # Screen Shots
